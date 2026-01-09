@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.parquet
+*.csv
+*.h5
+*.hdf5
+
+# Output directories
+trajectory_output/
+signalcount_analysis_output/
+path_dependency_visualizations/
+stage1_output/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*token*
+*secret*
+*.env
