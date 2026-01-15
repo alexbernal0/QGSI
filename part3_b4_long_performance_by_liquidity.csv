@@ -1,0 +1,3 @@
+Liquidity_Tier,Num_Symbols,Total_PnL,Avg_PnL_Per_Trade,Total_Trades,Avg_Liquidity_Score,Avg_Market_Impact,Avg_Volatility,Win_Rate,Strategy
+Tier 2 (Liquid),0,0.0,0.0,0,0.0,0.0,0.0,0.0,0
+Tier 3 (Moderate),400,465042.13803333417,25.73142256226376,16754,50.0,2.0,7.8268262962794815,50.185030440491815,LONG
