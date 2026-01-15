@@ -1,0 +1,2 @@
+Strategy,Signal,ATR_Period,Multiplier,Max_Bars,Total_Trades,Winning_Trades,Losing_Trades,Win_Rate_Pct,Net_Profit,Gross_Profit,Gross_Loss,Profit_Factor,Avg_Bars_In_Trade,Avg_Stop_Moved,Avg_Stop_Moved_Pct,Processing_Date
+ATR_Trailing_Stop,SHORT,30,1.5,20,60111,42839,17219,71.2664903262298,14392080.248963011,18581272.127872474,4189191.878909463,4.435526627801441,9.822511686712915,0.879682063848547,0.5612635698926155,2026-01-15 13:59:55
