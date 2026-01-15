@@ -1,0 +1,53 @@
+REPORT FORMAT COMPARISON - LONG vs SHORT
+================================================================================
+
+✓ VERIFIED: Both reports have IDENTICAL format and structure
+
+COLOR SCHEME:
+- Both use BLUE (#1f4788) for all headers and table headers
+- Both use beige background for table rows
+- Both use grey grid lines
+- ✓ SHORT report corrected from red to blue
+
+STRUCTURE (7 pages each):
+Page 1:
+- Title: "PRODUCTION PORTFOLIO" + "EXTENDED PERFORMANCE REPORT"
+- Strategy subtitle (LONG vs SHORT signals)
+- Portfolio Configuration table (6 rows)
+- Performance Summary table (10 metrics)
+- Risk-Adjusted Performance table (7 metrics)
+
+Page 2:
+- Return Distribution table (8 metrics)
+
+Page 3:
+- Drawdown Analysis table (4 metrics)
+- Top 5 Worst Drawdowns table
+- Win/Loss Statistics table (9 metrics)
+- Risk Metrics table (5 metrics)
+
+Page 4:
+- Monthly Performance Grid
+- Trade Statistics table (9 metrics)
+
+Page 5:
+- Equity Curve chart
+- Monthly Returns chart
+
+Pages 6-7:
+- APPENDIX: FIFO Realistic Backtesting Methodology
+- 8 sections explaining methodology, constraints, functions, validation
+
+METRICS VERIFIED:
+✓ All 56 extended metrics present in both reports
+✓ All TradeStation metrics present in both reports
+✓ Identical metric names and formatting
+✓ Same table structures and layouts
+
+DIFFERENCES (data only, not format):
+- LONG: Multiplier 5.0, 16,754 trades, 52.6% utilization
+- SHORT: Multiplier 1.5, 1,424 trades, 2.4% utilization
+- Performance values differ (as expected)
+- All formatting and structure IDENTICAL
+
+CONCLUSION: ✓ Both reports have exact same format, color scheme, and metrics
