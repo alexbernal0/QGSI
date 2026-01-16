@@ -1,0 +1,304 @@
+nohup: ignoring input
+================================================================================
+QGSI STAGE 4 PHASE 2: ATR BREAKEVEN STOP - SHORT SIGNALS (CHUNKED)
+================================================================================
+Strategy: ATR_Breakeven_Stop
+Signal Type: SHORT ONLY
+BE Triggers: [1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+Target Multipliers: [4.0, 5.0, 6.0, 7.0, 8.0, 10.0]
+Total Combinations: 36
+Chunk Size: 2 BE triggers at a time (12 combinations per chunk)
+================================================================================
+
+[1/4] Loading symbol list...
+✓ Found 400 symbols
+✓ Created 3 chunks
+
+[2/4] Processing 3 chunks...
+
+================================================================================
+CHUNK 1: Processing BE Triggers [1.5, 2.0]
+================================================================================
+
+  [1/12] BE:1.5× Target:4.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-1,275,255, PF:0.801, BE%:55.7% (32.4s)
+
+  [2/12] BE:1.5× Target:5.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-1,230,200, PF:0.808, BE%:55.7% (30.3s)
+
+  [3/12] BE:1.5× Target:6.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-1,168,114, PF:0.817, BE%:55.7% (30.7s)
+
+  [4/12] BE:1.5× Target:7.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-1,144,086, PF:0.821, BE%:55.7% (30.8s)
+
+  [5/12] BE:1.5× Target:8.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-1,120,957, PF:0.825, BE%:55.7% (30.7s)
+
+  [6/12] BE:1.5× Target:10.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-1,111,103, PF:0.826, BE%:55.7% (32.6s)
+
+  [7/12] BE:2.0× Target:4.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-800,738, PF:0.890, BE%:48.0% (34.4s)
+
+  [8/12] BE:2.0× Target:5.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-765,310, PF:0.895, BE%:48.0% (33.0s)
+
+  [9/12] BE:2.0× Target:6.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-709,630, PF:0.903, BE%:48.0% (31.9s)
+
+  [10/12] BE:2.0× Target:7.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-686,597, PF:0.906, BE%:48.0% (31.2s)
+
+  [11/12] BE:2.0× Target:8.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-655,622, PF:0.910, BE%:48.0% (32.2s)
+
+  [12/12] BE:2.0× Target:10.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-633,020, PF:0.913, BE%:48.0% (32.4s)
+
+✓ Saved chunk 1 results: /home/ubuntu/stage4_optimization/ATR_Breakeven_Stop_Short_Chunk1.csv
+
+================================================================================
+CHUNK 2: Processing BE Triggers [2.5, 3.0]
+================================================================================
+
+  [1/12] BE:2.5× Target:4.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-489,016, PF:0.938, BE%:41.6% (30.9s)
+
+  [2/12] BE:2.5× Target:5.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-453,357, PF:0.943, BE%:41.6% (32.4s)
+
+  [3/12] BE:2.5× Target:6.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-400,228, PF:0.949, BE%:41.6% (33.7s)
+
+  [4/12] BE:2.5× Target:7.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-364,092, PF:0.954, BE%:41.6% (32.2s)
+
+  [5/12] BE:2.5× Target:8.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-328,491, PF:0.958, BE%:41.6% (32.5s)
+
+  [6/12] BE:2.5× Target:10.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-307,094, PF:0.961, BE%:41.6% (32.4s)
+
+  [7/12] BE:3.0× Target:4.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-333,922, PF:0.960, BE%:36.0% (32.5s)
+
+  [8/12] BE:3.0× Target:5.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-286,731, PF:0.965, BE%:36.0% (31.3s)
+
+  [9/12] BE:3.0× Target:6.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-235,864, PF:0.972, BE%:36.0% (30.9s)
+
+  [10/12] BE:3.0× Target:7.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-193,000, PF:0.977, BE%:36.0% (31.7s)
+
+  [11/12] BE:3.0× Target:8.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-164,792, PF:0.980, BE%:36.0% (33.4s)
+
+  [12/12] BE:3.0× Target:10.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-132,962, PF:0.984, BE%:36.0% (32.9s)
+
+✓ Saved chunk 2 results: /home/ubuntu/stage4_optimization/ATR_Breakeven_Stop_Short_Chunk2.csv
+
+================================================================================
+CHUNK 3: Processing BE Triggers [3.5, 4.0]
+================================================================================
+
+  [1/12] BE:3.5× Target:4.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-250,371, PF:0.971, BE%:31.0% (33.8s)
+
+  [2/12] BE:3.5× Target:5.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-195,960, PF:0.977, BE%:31.0% (32.2s)
+
+  [3/12] BE:3.5× Target:6.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-138,612, PF:0.984, BE%:31.0% (32.2s)
+
+  [4/12] BE:3.5× Target:7.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-96,024, PF:0.989, BE%:31.0% (33.7s)
+
+  [5/12] BE:3.5× Target:8.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-61,924, PF:0.993, BE%:31.0% (31.4s)
+
+  [6/12] BE:3.5× Target:10.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-27,840, PF:0.997, BE%:31.0% (32.2s)
+
+  [7/12] BE:4.0× Target:4.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-204,170, PF:0.977, BE%:26.3% (31.5s)
+
+  [8/12] BE:4.0× Target:5.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-138,740, PF:0.984, BE%:26.3% (31.1s)
+
+  [9/12] BE:4.0× Target:6.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-74,061, PF:0.992, BE%:26.3% (32.5s)
+
+  [10/12] BE:4.0× Target:7.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-62,637, PF:0.993, BE%:26.3% (33.9s)
+
+  [11/12] BE:4.0× Target:8.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $-25,438, PF:0.997, BE%:26.3% (32.2s)
+
+  [12/12] BE:4.0× Target:10.0×
+    Batch 10/40... 14017 trades so far
+    Batch 20/40... 28393 trades so far
+    Batch 30/40... 43607 trades so far
+    Batch 40/40... 60033 trades so far
+    ✓ 60033 trades, $11,183, PF:1.001, BE%:26.3% (32.9s)
+
+✓ Saved chunk 3 results: /home/ubuntu/stage4_optimization/ATR_Breakeven_Stop_Short_Chunk3.csv
+
+[3/4] Saving final results...
+✓ Saved final performance: /home/ubuntu/stage4_optimization/ATR_Breakeven_Stop_Short_Performance.csv
+
+[4/4] Summary
+================================================================================
+TOP 5 CONFIGURATIONS
+================================================================================
+ Rank  BETrigger  TargetMultiplier   SystemScore     NetProfit  ProfitFactor  WinRate  BreakevenTriggeredPct  TotalTrades
+    1        4.0              10.0  11197.476553  11183.274865      1.001270 0.301251              26.345510        60033
+    2        4.0               8.0 -25364.839324 -25438.320966      0.997111 0.305965              26.345510        60033
+    3        3.5              10.0 -27750.225067 -27840.346152      0.996763 0.290474              30.956307        60033
+    4        3.5               8.0 -61478.192802 -61924.050075      0.992800 0.295021              30.956307        60033
+    5        4.0               7.0 -62191.474453 -62636.990895      0.992887 0.310029              26.345510        60033
+
+✓ Total processing time: 19.3 minutes
+================================================================================

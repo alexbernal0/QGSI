@@ -1,0 +1,36 @@
+LONG STRATEGY RANKINGS (from Phase 1 Report)
+Based on System Score = Net Profit × Profit Factor
+
+Rank 1: ATR Trailing Stop
+- System Score: $1,392K
+- Net Profit: $1,281K
+- Profit Factor: 1.087
+- Win Rate: 50.6%
+- Trades: 79,972
+- Best Parameters: ATR(30) 5.0x (No Target)
+
+Rank 2: ATR Breakeven Stop
+- System Score: $1,288K
+- Net Profit: $1,188K
+- Profit Factor: 1.084
+- Win Rate: 43.3%
+- Trades: 79,972
+- Best Parameters: ATR(30) BE:4.0x Tgt:10.0x
+
+Rank 3: Fixed ATR Asymmetric
+- System Score: $1,100K
+- Net Profit: $1,011K
+- Profit Factor: 1.088
+- Win Rate: 5210.6% (ERROR - likely 52.1%)
+- Trades: 80,002
+- Best Parameters: ATR(20) Stop:2.0x Tgt:5.0x
+
+Rank 4: Fixed ATR Symmetric
+- System Score: $753K
+- Net Profit: $719K
+- Profit Factor: 1.047
+- Win Rate: 5115.2% (ERROR - likely 51.2%)
+- Trades: 80,002
+- Best Parameters: ATR(20) 5.0x/5.0x
+
+KEY FINDING: ATR TRAILING STOP is the BEST LONG strategy by System Score!

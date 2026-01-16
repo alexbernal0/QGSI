@@ -1,0 +1,10 @@
+nohup: ignoring input
+================================================================================
+PROCESSING ALL LONG SIGNALS IN 40 BATCHES (10 symbols each)
+================================================================================
+
+--------------------------------------------------------------------------------
+BATCH 1/80: Processing symbols 0 to 4
+--------------------------------------------------------------------------------
+run_all_long_batches.sh: line 35: 15232 Killed                  python3.11 /home/ubuntu/stage4_optimization/process_best_long_subset.py $START_IDX $END_IDX
+✗ Batch 1 FAILED

@@ -95,6 +95,8 @@ config_data = [
     ['Signal Priority', 'First-Come-First-Served (ATR Tiebreaker)'],
     ['Data Period', f"{trades_df['EntryTime'].min().strftime('%Y-%m-%d')} to {trades_df['ExitTime'].max().strftime('%Y-%m-%d')}"],
     ['Total Trading Days', f"{len(equity_df['Timestamp'].dt.date.unique())}"],
+    ['Trade Log File', 'Production_Short_Trades.parquet'],
+    ['Equity Curve File', 'Production_Short_Equity.parquet'],
 ]
 
 config_table = Table(config_data, colWidths=[3*inch, 3*inch])

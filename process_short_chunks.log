@@ -1,0 +1,81 @@
+================================================================================
+PROCESSING BEST SHORT STRATEGY FROM CHUNKS
+Parameters: ATR(30), Multiplier 1.5×
+================================================================================
+
+[1/3] Found 42 chunk files
+
+[2/3] Processing chunks...
+  Chunk  1/42: 10 symbols, 1,609 trades so far
+  Chunk  2/42: 10 symbols, 3,233 trades so far
+  Chunk  3/42: 10 symbols, 4,367 trades so far
+  Chunk  4/42: 10 symbols, 5,681 trades so far
+  Chunk  5/42: 10 symbols, 6,829 trades so far
+  Chunk  6/42: 10 symbols, 7,910 trades so far
+  Chunk  7/42: 10 symbols, 9,195 trades so far
+  Chunk  8/42: 10 symbols, 10,724 trades so far
+  Chunk  9/42: 10 symbols, 11,670 trades so far
+  Chunk 10/42: 10 symbols, 13,104 trades so far
+  Chunk 11/42: 10 symbols, 14,450 trades so far
+  Chunk 12/42: 10 symbols, 15,692 trades so far
+  Chunk 13/42: 10 symbols, 16,986 trades so far
+  Chunk 14/42: 10 symbols, 18,342 trades so far
+  Chunk 15/42: 10 symbols, 19,777 trades so far
+  Chunk 16/42: 10 symbols, 21,251 trades so far
+  Chunk 17/42: 10 symbols, 22,580 trades so far
+  Chunk 18/42: 10 symbols, 24,202 trades so far
+  Chunk 19/42: 10 symbols, 25,999 trades so far
+  Chunk 20/42: 10 symbols, 27,228 trades so far
+  Chunk 21/42: 10 symbols, 28,414 trades so far
+  Chunk 22/42: 10 symbols, 29,805 trades so far
+  Chunk 23/42: 10 symbols, 30,796 trades so far
+  Chunk 24/42: 10 symbols, 32,062 trades so far
+  Chunk 25/42: 10 symbols, 33,372 trades so far
+  Chunk 26/42: 10 symbols, 35,196 trades so far
+  Chunk 27/42: 10 symbols, 36,712 trades so far
+  Chunk 28/42: 10 symbols, 38,178 trades so far
+  Chunk 29/42: 10 symbols, 39,843 trades so far
+  Chunk 30/42: 10 symbols, 41,526 trades so far
+  Chunk 31/42: 10 symbols, 43,183 trades so far
+  Chunk 32/42: 10 symbols, 44,533 trades so far
+  Chunk 33/42: 10 symbols, 46,228 trades so far
+  Chunk 34/42: 10 symbols, 47,546 trades so far
+  Chunk 35/42: 10 symbols, 49,121 trades so far
+  Chunk 36/42: 10 symbols, 50,727 trades so far
+  Chunk 37/42: 10 symbols, 52,542 trades so far
+  Chunk 38/42: 10 symbols, 54,071 trades so far
+  Chunk 39/42: 10 symbols, 55,457 trades so far
+  Chunk 40/42: 10 symbols, 57,134 trades so far
+  Chunk 41/42: 10 symbols, 58,762 trades so far
+  Chunk 42/42: 8 symbols, 60,111 trades so far
+
+[3/3] Combining all results...
+✓ Total trades: 60,111
+
+Calculating summary statistics...
+
+================================================================================
+FINAL SUMMARY STATISTICS
+================================================================================
+Total Trades:        60,111
+Winning Trades:      42,839 (71.3%)
+Losing Trades:       17,219 (28.7%)
+Net Profit:          $14,392,080.25
+Gross Profit:        $18,581,272.13
+Gross Loss:          $4,189,191.88
+Profit Factor:       4.436
+Avg Bars in Trade:   9.8
+Avg Stop Movement:   $0.88 (0.56%)
+================================================================================
+
+Exit Reason Breakdown:
+  STOP      : 53,054 (88.3%)
+  TIME      : 7,057 (11.7%)
+
+✓ Final parquet saved to: /home/ubuntu/stage4_optimization/Best_Short_Strategy_ATR_Trailing_Trades.parquet (4.8 MB)
+✓ Summary saved to: /home/ubuntu/stage4_optimization/Best_Short_Strategy_Summary.csv
+
+================================================================================
+✓ PROCESSING COMPLETE!
+================================================================================
+

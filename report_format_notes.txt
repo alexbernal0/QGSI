@@ -1,0 +1,25 @@
+LONG Report Format Specifications:
+- Color scheme: Blue (#1f4788) for all headers and table headers
+- Title: "PRODUCTION PORTFOLIO" + "EXTENDED PERFORMANCE REPORT"
+- Subtitle: Strategy name and parameters
+- Sections in order:
+  1. Portfolio Configuration (table)
+  2. Performance Summary (10 metrics)
+  3. Risk-Adjusted Performance (7 metrics)
+  4. Return Distribution (8 metrics)
+  5. Drawdown Analysis (4 metrics + top 5 table)
+  6. Win/Loss Statistics (9 metrics)
+  7. Risk Metrics (5 metrics)
+  8. Monthly Performance Grid
+  9. Trade Statistics (9 metrics)
+  10. Equity Curve (chart)
+  11. Monthly Returns (chart)
+  12. APPENDIX: FIFO Methodology
+
+All tables use:
+- Blue header background (#1f4788)
+- White text in headers
+- Beige row background
+- Grey grid lines
+
+Must include ALL metrics from both TradeStation and extended metrics module.
