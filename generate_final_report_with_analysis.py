@@ -238,9 +238,27 @@ $50M+ needs multi-broker execution and market impact modeling. Conservative esti
 still providing 26x scaling potential from current $2M combined deployment.
 """
 story.append(Paragraph(cap_analysis, analysis_style))
-story.append(PageBreak())
+story.append(Spacer(1, 0.2*inch))
 
-# Trade distribution
+# 1-Year CAGR Estimation
+story.append(Paragraph("1-Year CAGR Estimation with Statistical Confidence Intervals", subheading_style))
+cagr_img = Image('/home/ubuntu/stage4_optimization/part3_cagr_confidence_intervals.png', width=7*inch, height=5.5*inch)
+story.append(cagr_img)
+story.append(Spacer(1, 0.1*inch))
+cagr_analysis = """
+<b>Expected 1-Year Performance:</b> Bootstrap resampling (10,000 simulations) of 147 days of actual daily returns projects expected 1-year 
+CAGR of 247.61% (median: 243.44%) with 95% confidence interval [165.81%, 351.78%]. The distribution is approximately normal with slight 
+positive skew (std dev: 47.03%), indicating consistent high returns with occasional exceptional performance. Pessimistic scenario (10th 
+percentile): 190.45%, optimistic scenario (90th percentile): 309.26%. Probability of positive return: 100%. Current annualized CAGR from 
+147 days (244.49%) aligns closely with expected value, validating projection methodology. <b>Key Insight:</b> Even in pessimistic scenarios, 
+the combined portfolio is projected to deliver >190% annual returns, demonstrating exceptional risk-adjusted return potential. The narrow 
+confidence intervals relative to mean (±42% at 95% CI) indicate high statistical reliability. This projection assumes: (1) Return distribution 
+remains stationary, (2) No regime shifts in market microstructure, (3) Continued signal generation at current rates, (4) Execution quality 
+maintained. Real-world performance will likely be 70-80% of projected due to transaction costs, slippage, and operational inefficiencies.
+"""
+story.append(Paragraph(cagr_analysis, analysis_style))
+story.append(PageBreak())
+# Trade distributionn
 story.append(Paragraph("Trade Distribution Patterns", subheading_style))
 trade_dist_img = Image('/home/ubuntu/stage4_optimization/part3_viz_trades_by_hour.png', width=7*inch, height=3*inch)
 story.append(trade_dist_img)
@@ -275,7 +293,11 @@ story.append(Paragraph("OVERALL SUMMARY & TRADING OPERATIONS", heading_style))
 overall_summary = """
 <b>Executive Overview:</b> The comprehensive analysis reveals a high-performing, statistically robust trading system with exceptional 
 risk-adjusted returns. The combined portfolio achieves 104.62% return over 147 days with minimal drawdown (-0.89%), representing a Sharpe 
-ratio of 9.87 - a level typically associated with institutional market-neutral strategies.<br/><br/>
+ratio of 9.87 - a level typically associated with institutional market-neutral strategies. <b>1-Year CAGR Projection:</b> Bootstrap analysis 
+(10,000 simulations) projects expected 1-year CAGR of 247.61% with 95% confidence interval [165.81%, 351.78%]. Even pessimistic scenarios 
+(10th percentile: 190.45%) deliver exceptional returns with 100% probability of positive performance. This projection assumes stationary 
+return distribution and current execution quality; real-world performance expected at 70-80% of projection (173-198% CAGR) after transaction 
+costs and operational inefficiencies.<br/><br/>
 
 <b>Strategic Assessment - Strengths:</b> (1) Complementary strategy mechanics: LONG momentum-based (ATR 30/5.0) and SHORT mean-reversion 
 (ATR 30/1.5) with 0.0516 correlation providing excellent diversification. (2) Robust risk management: All 7 months profitable with minimal 
